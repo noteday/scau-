@@ -1,0 +1,25 @@
+
+  <view class='bottom_view'>
+  <view class="we-container {{directionClass}}">
+    <view class="we-wrapper">
+        <view class="we-slide">
+        <scroll-view class='scroll_view' scroll-y>
+        <block wx:for="{{data}}" wx:key="*this">
+           <view class='card_view'>
+            <view class="card" >
+            <view bindtap="onItemClick" data-flag="{{item.id}}">
+           <image class="image" mode="aspectFill" src="{{item.image}}"/>
+            <view class='text_view'>
+            <view class="title">{{item.title}}</view>
+              <view class='text_content'>{{item.text_content}}</view>
+            </view>
+          </view>
+          </view>
+         </view>
+        </block>
+  </scroll-view>
+        </view>
+    </view>
+  </view>
+  </view>
+<!-- </view> -->

@@ -1,0 +1,45 @@
+<!--pages/article/article.wxml-->
+<scroll-view class='content_view' scroll-y>
+      <view class='article_title_view'>
+      <view class='article_title'>男队队长</view>
+      <view class='article_line'></view>
+      </view>
+      <view style="display: flex;align-items: center; flex-direction: column;">
+        <image src="../../images/zhou.png" style="width:67.4vw; height:89.6vw;border: 5px solid #ddd" bindtap='previewImage' data-index="3"></image>
+      </view>
+
+      <view class='article_title_view'>
+        <view class='article_title'>女队队长</view>
+        <view class='article_line'></view>
+      </view>
+      <view style="display: flex;align-items: center; flex-direction: column;">
+         <image src="../../images/xiao.png" style="width:67.4vw; height:89.6vw ;border: 5px solid #ddd;" bindtap='previewImage' data-index="3"></image>
+      </view>
+       <view class="event-action event-session-spacing define">
+    <view class="event-schedule">
+      <image class="action-icon" src="../../images/schedule.png"></image>
+      <label class="action-label" for="schedule">训练时间
+        <text id="schedule" class="action-text">{{event.time}}</text>
+      </label>
+    </view>
+    <view class="event-map" bindtap="handleMap">
+      <image class="action-icon" src="../../images/map.png"></image>
+      <label class="action-label" for="map">地址
+        <text id="map" class="action-text">{{event.adress}}</text>
+      </label>
+    </view>
+    <view class="event-ticket">
+      <image class="action-icon" src="../../images/ticket.png"></image>
+      <label class="action-label" for="ticket">邮箱
+        <text id="ticket" class="action-text">{{event.email}}</text>
+      </label>
+    </view>
+    <view wx:if="{{true}}" class="event-phone" bindtap="handlePhone" data-phone="13432987351">
+      <image class="action-icon" src="../../images/phone.png"></image>
+      <label class="action-label" for="phone">联系电话
+        <text id="phone" class="action-text">13926716819</text>
+      </label>
+    </view>
+  </view>
+</scroll-view>
+  

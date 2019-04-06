@@ -1,0 +1,92 @@
+
+.label_view {
+  width: 50vw;
+  color: #6680F5;
+}
+
+.bottom_view {
+  height: 100%;
+}
+
+.scroll_view {
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.navigator_view {
+  width: 90vw;
+}
+
+.card_view {
+  margin-top: 20px;
+  margin-left:5vw;
+  margin-right:5vw;
+  margin-bottom: 20px;
+}
+
+.line_view {
+  width: 100vw;
+  font-size: 12px;
+  color: #9B9B9B;
+  text-align:center;
+  padding-bottom:10px;
+}
+
+.card {
+    width: 90vw;
+    /* height: 40vh; */
+    background-color: #ffffff;
+    box-shadow: 0px 2px 6px 2px #cccccc;
+    border-radius: 10px;
+
+}
+
+.image {
+    width: 100%;
+    height: 30vh;
+    background-color: #eeeeee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.text_view {
+  padding: 6px 6px 6px 10px;
+}
+.title {
+  /* margin-left: 12px; */
+  font-size: 16px;
+}
+
+.text_content{
+  /* margin-left: 12px; */
+  margin-top: 2px;
+  font-size: 11px;
+  color: #9B9B9B;
+}
+
+.card_2 {
+  width: 90vw;
+  background-color: #ffffff;
+  box-shadow: 4px 1px 1px #cccccc;
+  border-radius: 10px;
+}
+
+/* .text_view_2 {
+   
+}
+*/
+.image_view {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 400px;
+  height: 160px;
+  padding: 30px 20px;
+}
+
+page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+ 

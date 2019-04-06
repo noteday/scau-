@@ -1,0 +1,4 @@
+.page__pd{
+  padding: 50px;
+  border: 10px solid #ddd
+}

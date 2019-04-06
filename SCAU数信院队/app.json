@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/pride/pride",
+    "pages/web/web",
+    "pages/enroll/enroll",
+    "pages/adress/adress"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_active.png",
+        "text": "招新啦~"
+      },
+      {
+        "pagePath": "pages/pride/pride",
+        "iconPath": "images/pride.png",
+        "selectedIconPath": "images/pride_active.png",
+        "text": "荣誉"
+      }
+    ]
+  }
+}
